@@ -31,7 +31,7 @@ def GetFileList(dirName, endings=[".jpg", ".jpeg", ".png", ".mp4"]):
     return allFiles
 
 
-def ChangeToOtherMachine(filelist, repo="TrainYourOwnYOLO", remote_machine=""):
+def ChangeToOtherMachine(filelist, repo="invoice_detection ", remote_machine=""):
     """
     Takes a list of file_names located in a repo and changes it to the local machines file names. File must be executed from withing the repository
 

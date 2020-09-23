@@ -1,37 +1,12 @@
-# TrainYourOwnYOLO: Image Annotation
+# invoice_detection : Image Annotation
 
 ## Dataset
-To train the YOLO object detector on your own dataset, copy your training images to [`TrainYourOwnYOLO/Data/Source_Images/Training_Images`](/Data/Source_Images/Training_Images/).  
+To train the YOLO invoice detector on your own dataset, copy your training images to [`invoice_detection/Data/Source_Images/Training_Images`](/Data/Source_Images/Training_Images/).  
 
 ## Annotation
-To make our detector learn, we first need to feed it some good training examples. We use Microsoft's Visual Object Tagging Tool (VoTT) to manually label images in our training folder [`TrainYourOwnYOLO/Data/Source_Images/Training_Images`](/Data/Source_Images/Training_Images/). To achieve decent results annotate at least 100 images. For good results label at least 300 images and for great results label 1000+ images. 
-
-### Download VoTT
-Head to VoTT [releases](https://github.com/Microsoft/VoTT/releases) and download and install the version for your operating system. Under `Assets` select the package for your operating system: 
-- `vott-2.x.x-darwin.dmg` for Mac users, 
-- `vott-2.x.x-win32.exe` for Windows users and 
-- `vott-2.x.x-linux.snap` for Linux users.
-
-Installing `*.snap` files requires the snapd package manager which is available at [snapcraft.io](https://snapcraft.io/docs/installing-snapd).
-
-### Create a New Project
-
-Create a **New Project** and call it `Annotations`. It is highly recommended to use `Annotations` as your project name. If you like to use a different name for your project, you will have to modify the command line arguments of subsequent scripts accordingly. 
-
-Under **Source Connection** choose **Add Connection** and put `Images` as **Display Name**. Under **Provider** choose **Local File System** and select [`TrainYourOwnYOLO/Data/Source Images/Training_Images`](/Data/Source_Images/Training_Images) and then **Save Connection**. For **Target Connection** choose the same folder as for **Source Connection**. Hit **Save Project** to finish project creation. 
+To make our detector learn, we first need to feed it some good training examples. We use Microsoft's Visual Object Tagging Tool (VoTT) to manually label images in our training folder [`invoice_detection/Data/Source_Images/Training_Images`](/Data/Source_Images/Training_Images/). To achieve decent results annotate at least 100 images. For good results label at least 300 images and for great results label 1000+ images. 
 
 
-### Export Settings
-Navigate to **Export Settings** in the sidebar and then change the **Provider** to `Comma Separated Values (CSV)`, then hit **Save Export Settings**. 
-
-
-
-### Labeling
-First create a new tag on the right and give it a relevant tag name. In our example, we choose `Cat_Face`. Then draw bounding boxes around your objects. You can use the number key **1** to quickly assign the first tag to the current bounding box. 
-
-
-### Export Results
-Once you have labeled enough images press **CRTL+E** to export the project. You should now see a folder called [`vott-csv-export`](/Data/Source_Images/Training_Images/vott-csv-export) in the [`Training_Images`](/Data/Source_Images/Training_Images) directory. Within that folder, you should see a `*.csv` file called [`Annotations-export.csv`](/Data/Source_Images/Training_Images/vott-csv-export/Annotations-export.csv) which contains file names and bounding box coordinates. 
 
 ## Convert to YOLO Format
 As a final step, convert the VoTT csv format to the YOLOv3 format. To do so, run the conversion script from within the [`invoice_detection/1_Image_Annotation`](/1_Image_Annotation/) folder:
