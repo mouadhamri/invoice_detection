@@ -1,4 +1,4 @@
-# Invoice AI detection: Building a Custom Object Detector for invoives
+# Invoice AI detection: Building a Custom Object Detector for invoices
 
 This repo is a fork of the repo https://github.com/AntonMu/TrainYourOwnYOLO.git which makes use of ilmonteux/logohunter which itself is inspired by qqwweee/keras-yolo3 (a Darknet implementation  of YOLO3).
 We use TensorFlow 2.3 and Keras 2.4.
@@ -38,8 +38,8 @@ and follow the installation instructions. Note that this repo has only been test
 
 Clone this repo with:
 ```
-git clone https://github.com/AntonMu/TrainYourOwnYOLO
-cd TrainYourOwnYOLO/
+git clone https://github.com/mouadhamri/invoice_detection.git
+cd invoice_detection/
 ```
 Create Virtual **(Linux/Mac)** Environment:
 ```
