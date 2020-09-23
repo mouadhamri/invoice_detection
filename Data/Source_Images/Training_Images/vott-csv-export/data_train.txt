@@ -1,0 +1,10 @@
+/Users/MouadHamri/Documents/object_detection/TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott-csv-export/inv_02.png 55,32,275,75,0 486,647,643,664,1
+/Users/MouadHamri/Documents/object_detection/TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott-csv-export/inv_05.png 227,510,386,567,0 999,1184,1666,1287,1
+/Users/MouadHamri/Documents/object_detection/TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott-csv-export/inv_04.jpg 25,142,149,165,0 296,509,479,545,1
+/Users/MouadHamri/Documents/object_detection/TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott-csv-export/inv_03.jpg 41,472,153,495,0 29,737,463,792,1
+/Users/MouadHamri/Documents/object_detection/TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott-csv-export/inv_01.png 138,109,425,211,0 719,787,1153,854,1
+/Users/MouadHamri/Documents/object_detection/TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott-csv-export/inv_06.png 50,229,129,252,0 476,543,714,583,1
+/Users/MouadHamri/Documents/object_detection/TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott-csv-export/inv_08.png 53,260,164,278,0 453,577,695,614,1
+/Users/MouadHamri/Documents/object_detection/TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott-csv-export/inv_07.png 127,43,156,50,0 163,133,230,140,1
+/Users/MouadHamri/Documents/object_detection/TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott-csv-export/inv_10.png 358,170,444,201,0 467,678,658,706,1
+/Users/MouadHamri/Documents/object_detection/TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott-csv-export/inv_09.png 328,275,448,295,0 43,635,746,659,1

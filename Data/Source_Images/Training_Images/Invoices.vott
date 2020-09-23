@@ -1,0 +1,209 @@
+{
+    "name": "Invoices",
+    "securityToken": "Invoices Token",
+    "sourceConnection": {
+        "name": "Local",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMDU5ODU3YWUyNTY0Yjc4MmMyNTRlNGEyOGU3NGFiZWEwNGZmMmY4MmQ1N2QxYTgwYWU5ZDhkZGFhY2ViYzkzNTFkMGQ1NzIyODJlYmZlNWU5N2VkMjFkNGJlN2JmYjFhNDIzY2FhYTRjZGExYjkxMTI1NGRjN2VjZWQ3ZWEwOGMiLCJpdiI6IjljNjM1MDk3Y2YwNGNlYjA2ZWUxNWY5OGFiMmZiM2QzNjQ5MjZkMjE5Y2VhZGYwNiJ9"
+        },
+        "id": "yTpVrFEJn"
+    },
+    "targetConnection": {
+        "name": "Local",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTE3ZjlkZDExZmMwMzY2YTI5ODIzMTk3YTI2NjhhYWQ4NDFhY2E3NjRhYmUxOWExZTU2ZGRhODBkODgyZTI0NzY1MzQxNzc1ZDRkMGRmODA4M2EzYzBjNWYxOTYwOTdiNTE3Y2ZmZmYwM2VkZDA5ZjdkNjVlMWZhY2ZhNDU5MDYiLCJpdiI6ImIzYmQ3ZjAyOWU1Y2IxYjRhNTkyYmUyNTM4MDRlMTMwNTk2MmY0NjU1ZTk2MmY3OCJ9"
+        },
+        "id": "yTpVrFEJn"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "Client",
+            "color": "#5db300"
+        },
+        {
+            "name": "AmountHT",
+            "color": "#e81123"
+        },
+        {
+            "name": "AmountTTC",
+            "color": "#6917aa"
+        },
+        {
+            "name": "TVA",
+            "color": "#015cda"
+        },
+        {
+            "name": "NUM",
+            "color": "#4894fe"
+        },
+        {
+            "name": "DATE",
+            "color": "#6b849c"
+        }
+    ],
+    "id": "SSZ-Cvqwq",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "tensorFlowRecords",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNGNmNTYyYTZkN2MzMjVlMTYzYWRmYzYwODBjNTA4MDM5MmI2OWQyYWQ4M2Q3YWJhMTUwNjlhYmFlNjY0NGIxMCIsIml2IjoiMzRmMjI1Yzg5NTc2OTIxN2EwZmQ5ZjczYmZkN2U4YTFjY2NjYWIxNTk2ZmJiMjZjIn0="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "17ef9aa7f53886a36ab1f65aca4e7051",
+    "assets": {
+        "c8d6c6b28f8a307c03f23dbeccdee945": {
+            "format": "png",
+            "id": "c8d6c6b28f8a307c03f23dbeccdee945",
+            "name": "Facture%20-%20FAC202006023.png",
+            "path": "file:/Users/MouadHamri/Documents/invoices/Facture%20-%20FAC202006023.png",
+            "size": {
+                "width": 1239,
+                "height": 1754
+            },
+            "state": 2,
+            "type": 1
+        },
+        "17ef9aa7f53886a36ab1f65aca4e7051": {
+            "format": "png",
+            "id": "17ef9aa7f53886a36ab1f65aca4e7051",
+            "name": "Facture%20vili%20Syentys%20MAI%202020.png",
+            "path": "file:/Users/MouadHamri/Documents/invoices/Facture%20vili%20Syentys%20MAI%202020.png",
+            "size": {
+                "width": 1239,
+                "height": 1754
+            },
+            "state": 1,
+            "type": 1
+        },
+        "33056441f317c3d98c12bb4d41e46767": {
+            "format": "png",
+            "id": "33056441f317c3d98c12bb4d41e46767",
+            "name": "inv1.png",
+            "path": "file:/Users/MouadHamri/Documents/invoices/inv1.png",
+            "size": {
+                "width": 238,
+                "height": 212
+            },
+            "state": 1,
+            "type": 1
+        },
+        "b1b56a71406b418c80133ab7dba79428": {
+            "format": "png",
+            "id": "b1b56a71406b418c80133ab7dba79428",
+            "name": "inv10.png",
+            "path": "file:/Users/MouadHamri/Documents/invoices/inv10.png",
+            "size": {
+                "width": 197,
+                "height": 256
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f40cc6e2978cf24a83ecd4f793b28dbe": {
+            "format": "png",
+            "id": "f40cc6e2978cf24a83ecd4f793b28dbe",
+            "name": "inv2.png",
+            "path": "file:/Users/MouadHamri/Documents/invoices/inv2.png",
+            "size": {
+                "width": 203,
+                "height": 248
+            },
+            "state": 1,
+            "type": 1
+        },
+        "600ee0304b44f1b6d5a77bd44253c68e": {
+            "format": "png",
+            "id": "600ee0304b44f1b6d5a77bd44253c68e",
+            "name": "inv3.png",
+            "path": "file:/Users/MouadHamri/Documents/invoices/inv3.png",
+            "size": {
+                "width": 197,
+                "height": 255
+            },
+            "state": 1,
+            "type": 1
+        },
+        "7910dc7ff7cf8d9784a12acf3266dc48": {
+            "format": "png",
+            "id": "7910dc7ff7cf8d9784a12acf3266dc48",
+            "name": "inv4.png",
+            "path": "file:/Users/MouadHamri/Documents/invoices/inv4.png",
+            "size": {
+                "width": 198,
+                "height": 255
+            },
+            "state": 1,
+            "type": 1
+        },
+        "4122d8399ebee5eaf9468b95fe641230": {
+            "format": "jpeg",
+            "id": "4122d8399ebee5eaf9468b95fe641230",
+            "name": "inv5.jpeg",
+            "path": "file:/Users/MouadHamri/Documents/invoices/inv5.jpeg",
+            "size": {
+                "width": 202,
+                "height": 249
+            },
+            "state": 1,
+            "type": 1
+        },
+        "3c4023c9646710b713917ee0bcdb3dc7": {
+            "format": "png",
+            "id": "3c4023c9646710b713917ee0bcdb3dc7",
+            "name": "inv6.png",
+            "path": "file:/Users/MouadHamri/Documents/invoices/inv6.png",
+            "size": {
+                "width": 305,
+                "height": 165
+            },
+            "state": 1,
+            "type": 1
+        },
+        "e01701bca1739872fe50729a8b89144d": {
+            "format": "png",
+            "id": "e01701bca1739872fe50729a8b89144d",
+            "name": "inv7.png",
+            "path": "file:/Users/MouadHamri/Documents/invoices/inv7.png",
+            "size": {
+                "width": 191,
+                "height": 264
+            },
+            "state": 1,
+            "type": 1
+        },
+        "832797a24022899d20e7669b90ff5447": {
+            "format": "png",
+            "id": "832797a24022899d20e7669b90ff5447",
+            "name": "inv8.png",
+            "path": "file:/Users/MouadHamri/Documents/invoices/inv8.png",
+            "size": {
+                "width": 208,
+                "height": 242
+            },
+            "state": 1,
+            "type": 1
+        },
+        "218b270a36ed8b08871e566e1783a66f": {
+            "format": "png",
+            "id": "218b270a36ed8b08871e566e1783a66f",
+            "name": "inv9.png",
+            "path": "file:/Users/MouadHamri/Documents/invoices/inv9.png",
+            "size": {
+                "width": 189,
+                "height": 267
+            },
+            "state": 1,
+            "type": 1
+        }
+    }
+}
