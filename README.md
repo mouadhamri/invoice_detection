@@ -48,7 +48,6 @@ source env/bin/activate
 ```
 Make sure that, from now on, you **run all commands from within your virtual environment**.
 
-#### Install Required Packages [Windows, Mac or Linux]
 Install required packages (from within your virtual environment) via:
 
 ```
